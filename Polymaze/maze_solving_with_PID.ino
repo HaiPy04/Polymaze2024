@@ -19,14 +19,10 @@ int P;
 int I;
 int D;
 
-float Kp = 0.07;
-float Ki = 0.0006;
-float Kd = 0.7;
-/*
-float Kp = 0.05;
-float Ki = 0.00001;
-float Kd = 0.8;
-*/
+float Kp = 0.008;
+float Ki = 0.0076;
+float Kd = 0.1;
+
 int rotationback = 70;
 int rotation = 150;
 int coeff = -1;
